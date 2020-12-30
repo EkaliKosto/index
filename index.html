@@ -5,17 +5,19 @@
 
 	<style type="text/css">
 		
-		header{font-family: avenir; background-image: url("img/gubei.jpg"); background-repeat: no-repeat; background-position: 0px 0px;}
+		header{font-family: avenir;}
+		body{background-image: url("img/gubei.jpg"); background-repeat: no-repeat; background-position: 0px 0px;}
 		main{padding: 0px 45px;}
 		h1{color: ivory; font-size: 25px; text-transform: uppercase; font-style: bold; padding: 0px 15px;}
 		h2{color: ivory; font-size: 15px; text-transform: uppercase; word-spacing: 25px; text-align: right; padding: 0px 15px;}
-		h3{font-family: zapfino; color: ivory; font-size: 35px; text-align: center; font-style: bold;}
+		blockquote{font-family: zapfino; color: ivory; font-size: 55px; text-align: center; font-style: bold; line-height: 55px;}
 		h4{color: ivory; font-size: 30px; font-style: bold;}
 		h5{color: ivory; font-size: 30px; font-style: italic; text-align: center;}
 		p span{color: ivory;}
-		.text-align{text-align: right;}
-		.background-color-blue{background-color: navy;}
-		.background-color-gold{background-color: navajowhite;}
+		footer{color: ivory}
+		.text-align-right{text-align: right;}
+		.text-align-center{text-align: center;}
+		
 
 	</style>
 
@@ -28,12 +30,16 @@
 		<a id="#Services">Services</a>
 		<a id="#Free material" style="word-spacing: 2px;">Free material</a>
 		<a id="#Contact">Contact</a></h2>
-		<h3>Welcome</h3>
+		<!-- h3>Welcome</h3> -->
+		<blockquote>Welcome</blockquote>
 		<h5>to the pathway between China and Greece</h5>
 		<!-- <h2>About</h2>
 		<h2>Services</h2>
 		<h2>Free material</h2>
 		<h2>Contact</h2> -->
+
+		<!-- .background-color-blue{background-color: navy;}
+		.background-color-gold{background-color: navajowhite;} -->
 
 		<!-- img src="img/gubei.jpg" -->
 	</header>
@@ -45,13 +51,27 @@
 			<p><span>This is the about section.</span></p>
 
 			<a href="CV.pdf" target="_blank" title="Click to view CV" style="color: ivory; font-size: 15px;">Curriculum Vitae</a>
-			<a href="https://www.facebook.com/ekali.kostopoulos" target="_blank" title="Click to connect" style="color: ivory; font-size: 15px;">Ekali's Facebook</a>
+			<a href="https://www.linkedin.com/in/ekalikosto" target="_blank" title="Click to connect" style="color: ivory; font-size: 15px;">Ekali's LinkedIn</a>
 		</div>
 
-		<div class="background-color-gold">
-			<h4 id="Services;" class="text-align">Services</h4>
-			<p class="text-align"><span>This is the services section.</span></p>
+		<div class="background-color-gold; text-align-right";>
+			<h4 id="Services;">Services</h4>
+			<p><span>This is the services section.</span></p>
 		</div>
+
+		<div class="text-align-center">
+			<h4><a id="Free material;"></a>Free material</h4>
+			<p><span>This is the free material section.</span></p>
+		</div>
+
+		<div>
+			<h4>Contact</h4>
+			<p><span>This is the contact section.</span></p>
+		</div>
+
+		<footer class="text-align-center";>
+			&copy; The Sino-Greek Road
+		</footer>
 	</main>
 
 </body>
